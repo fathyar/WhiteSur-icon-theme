@@ -93,7 +93,7 @@ install() {
     ln -s ../../${name}/status/32 ${name}-dark/status/32
 
     cd ${THEME_DIR}
-    sed -i "s/Numix-Circle-Light/Numix-Circle/g" index.theme
+    sed -i "s/Mojave-CT-Light,McMojave-circle,Numix-Circle-Light/Mojave-CT-Night-Mode,McMojave-circle-dark,Numix-Circle/g" index.theme
   fi
 
   cd ${THEME_DIR}
